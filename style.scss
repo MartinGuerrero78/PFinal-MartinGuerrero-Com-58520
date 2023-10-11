@@ -1,17 +1,17 @@
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/variables-dark";
-@import "../node_modules/bootstrap/scss/maps";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/root";
-@import "../node_modules/bootstrap/scss/utilities";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/containers";
-@import "../node_modules/bootstrap/scss/grid";
-@import "../node_modules/bootstrap/scss/helpers";
-@import "../node_modules/bootstrap/scss/utilities/api";
+@import "../aplicandosass/node_modules/bootstrap/scss/functions";
+@import "../aplicandosass/node_modules/bootstrap/scss/variables";
+@import "../aplicandosass/node_modules/bootstrap/scss/variables-dark";
+@import "../aplicandosass/node_modules/bootstrap/scss/maps";
+@import "../aplicandosass/node_modules/bootstrap/scss/mixins";
+@import "../aplicandosass/node_modules/bootstrap/scss/root";
+@import "../aplicandosass/node_modules/bootstrap/scss/utilities";
+@import "../aplicandosass/node_modules/bootstrap/scss/reboot";
+@import "../aplicandosass/node_modules/bootstrap/scss/type";
+@import "../aplicandosass/node_modules/bootstrap/scss/images";
+@import "../aplicandosass/node_modules/bootstrap/scss/containers";
+@import "../aplicandosass/node_modules/bootstrap/scss/grid";
+@import "../aplicandosass/node_modules/bootstrap/scss/helpers";
+@import "../aplicandosass/node_modules/bootstrap/scss/utilities/api";
 
 *{
     margin: 0px;
@@ -405,7 +405,31 @@ h5{
     color: #fff;
 }
 
+/* Media Query titleindex */
+
+@media (max-width: 360px){
+    .text-rudder{
+        padding: 10px;
+    }
+}
+
 /* Media Query nav */
+
+@media (max-width: 320px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .title-index {
+        position: relative;
+        z-index: 0;
+        margin-top: 100px;
+    }
+}
 
 @media (max-width: 768px) {
     .collapse{
@@ -452,3 +476,8 @@ h5{
         font-size: 16px;
     }
 }
+
+
+
+
+
