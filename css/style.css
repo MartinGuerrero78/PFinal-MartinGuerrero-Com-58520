@@ -7506,7 +7506,38 @@ h5, .h5 {
   }
 }
 /* media querys para seccion trabajos */
+@media (max-width: 1024px) {
+  .conteiner-trabajos {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .image-costura {
+    margin: 0 auto;
+  }
+}
 @media (max-width: 768px) {
+  .conteiner-trabajos {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .image-costura {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .conteiner-trabajos {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .image-costura {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 375px) {
   .conteiner-trabajos {
     flex-direction: column;
     align-items: center;
