@@ -7494,15 +7494,15 @@ h5, .h5 {
   }
 }
 .navbar-toggler {
-  background-color: white;
+  background-color: transparent;
 }
 
 @media (max-width: 320px) {
   .header-nav {
-    background-color: white;
+    background-color: transparent;
   }
   .navbar-toggler {
-    background-color: white;
+    background-color: transparent;
   }
 }
 
