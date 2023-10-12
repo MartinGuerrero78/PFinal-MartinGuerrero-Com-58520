@@ -13,6 +13,12 @@
 @import "../aplicandosass/node_modules/bootstrap/scss/helpers";
 @import "../aplicandosass/node_modules/bootstrap/scss/utilities/api";
 
+@mixin flex-wrap-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -251,9 +257,7 @@ p{
 /* Acá empieza la sección trabajos */
 
 .conteiner-trabajos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include flex-wrap-center;
 }
 
 .image-costura{
